@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Nerko One', cursive;
+    padding-top: 600px;
+}
+
+#tbl {
+    position:absolute;
+    background: linear-gradient(#91c8c9 0%, #2f66a8 100%);
+    display: table;
+    bottom: 0;
+    font-size: 30px;
+    font-family: cursive;
+    color: #FFFFFF;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+}
+
+.list1 {
+    list-style: none;
+    font-family: 'Nerko One', cursive;
+    position: fixed;
+    z-index: 10;
+    top: 1px;
+    cursor: pointer;
+    text-align: center;
+    background-color: azure;
+    margin-top: 0px;
+    font-size: small;
+}
+
+.a1 {
+    color: black;
+    margin-right:157px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Nerko One', cursive;
+    display: inline;
+}
+
+.a1:hover {
+    background-color: darkred;
+}
+
+.imgs {
+    border-radius: 40%;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.bio1 {
+    height: 15px;
+    width: 1200px;
+    background-color:black;
+    margin: 10px auto;
+}
+
+p {
+    max-width: 500px;
+    margin: 30px auto;
+    font-family: 'Nerko One', cursive;
+}
+
+.tble {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+a {
+    text-decoration:none;
+    font-size: 30px;
+}
+a:hover {
+    background-color: blue;
+    color:white;
+}
+#contacts {
+    width:100%;
+}
+.contactsmail h1 {
+    display: inline;
+}
